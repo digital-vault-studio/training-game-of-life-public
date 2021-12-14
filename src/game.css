@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.mainContainer {
+  border: 1px solid red;
+  text-align: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  display: inline-block;
+}
+
+.cell {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: white;
+}
+
+.cell:hover {
+  transform: scale(1.2);
+  z-index: -2;
+  border: 1px solid black;
+  margin-top: -1px;
+  margin-right: -1px;
+}
+
+.alive {
+  background-color: black;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-size: 0;
+}
