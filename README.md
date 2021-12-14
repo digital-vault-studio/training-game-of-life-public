@@ -20,7 +20,7 @@ This project is written in React.JS with typescript but you don't really need to
 - calculating the next generation
 - toggling cells (alive/dead)
 
-due to the way React works, you have to implement your module in an [**IMMUTABLE**](https://web.mit.edu/6.005/www/fa15/classes/09-immutability/) fashion, which means every function must be [**PURE**](https://en.wikipedia.org/wiki/Pure_function#:~:text=In%20computer%20programming%2C%20a%20pure,reference%20arguments%20or%20input%20streams). and must return a copy (with changes) of the board received as parameter.
+due to the way React works, you have to implement your module in an [**immutable**](https://web.mit.edu/6.005/www/fa15/classes/09-immutability/) fashion,  every function must be [**pure**](https://en.wikipedia.org/wiki/Pure_function#:~:text=In%20computer%20programming%2C%20a%20pure,reference%20arguments%20or%20input%20streams). and must return a copy (with changes) of the board received as parameter.
 
 Example:
 
@@ -34,8 +34,9 @@ Example:
 
 1.- Install [Node.JS](https://nodejs.org/es/) and [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)  
 2.- Clone the repository
+
 ```
-git clone https://github.com/digital-vault-studio/training-game-of-life
+git clone https://github.com/digital-vault-studio/training-game-of-life-public.git
 ```
 3.- Go to the project directory and Install dependencies:
 
